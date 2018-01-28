@@ -1,20 +1,20 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+
 	<title>still life.</title>
-	<script src="lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
-	<link href="lightbox2/dist/css/lightbox.css" rel="stylesheet" />
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/lightbox.min.js"></script>
+	<link href="css/lightbox.css" rel="stylesheet" />
 	<link href="style.css" rel="stylesheet" />
 	<script src="Menubar.js"></script>
 
 	<style>
-	
+
 	@media only screen and (orientation: portrait) {
 		.red { opacity:1; width: 70vw; height: 50vw; background-image:url('pictures/Animals/SDC12195.jpg'); display:inline-block; text-align:left; color:black; background-size: 100%; margin-bottom:4vw}
 		.blue { opacity:1; width: 70vw; height: 39.2vw; background-image:url('pictures/hanging-gardens/small-5.jpg'); display:inline-block; text-align:left; color:black; background-size: 100%; margin-bottom:4vw}
@@ -22,7 +22,7 @@
 		.yellow { opacity:1; width: 70vw; height: 50vw; background-image:url('pictures/set-building/Untitled-1.jpg'); display:inline-block; text-align:left; color:black; background-size: 100%; margin-bottom:4vw}
 		.captionbox { padding-left:1vw; text-align:left; width:100%; height:9.8vw; background: rgba(0,0,0,0.4); box-sizing: border-box; color:white; position:relative; bottom:0vw; font-size:5.5vw}
 		}
-	
+
 	@media only screen and (orientation: landscape) {
 		.red {opacity:0.5; position:relative; top:0vw; width: 10vw; height: 18.8vw; background-size:cover; background-image:url('pictures/Animals/SDC12195.jpg') ; -webkit-transition: width 2s, opacity 2s; transition: width 2s, opacity 2s; display:inline-block; margin:0.8vw; text-align:left; font: 1.3vw gothics; color:black; }
 		.red:hover { width: 25.4vw; opacity:1;}
@@ -49,19 +49,19 @@
 		<div id="bottom"></div>
 	</div>
 	<div id="submenu" class="no_show">
-		<div style="width:37vw; display:inline-block"><a href="art.html" style="text-decoration:none; color:black;">art</a></div><div style="width:37vw; display:inline-block"><a href="set-building.html" style="text-decoration:none; color:black">set building</a></div>
-		<div style="width:37vw; display:inline-block"><a href="hanging-gardens.html" style="text-decoration:none; color:black">architecture</a></div><div style="width:37vw; display:inline-block"><a href="about.html" style="text-decoration:none; color:black">about</a></div></br>
-		<div style="width:37vw; display:inline-block"><a href="illustration.html" style="text-decoration:none; color:black">illustration</a></div><div style="width:37vw; display:inline-block"></div></br>
-		<div style="width:37vw; display:inline-block"><a href="photography.html" style="text-decoration:none; color:black">photography</a></div><div style="width:37vw; display:inline-block"></div></br>
+<div style="width:37vw; display:inline-block"><a href="art.html" style="text-decoration:none; color:black;">art</a></div><div style="width:37vw; display:inline-block"><a href="set-building.html" style="text-decoration:none; color:black">set building</a></div>
+<div style="width:37vw; display:inline-block"><a href="architecture1.html" style="text-decoration:none; color:black">architecture</a></div><div style="width:37vw; display:inline-block"><a href="product-design.html" style="text-decoration:none; color:black">product design</a></div>
+<div style="width:37vw; display:inline-block"><a href="illustration.html" style="text-decoration:none; color:black">illustration</a></div><div style="width:37vw; display:inline-block"><a href="about.html" style="text-decoration:none; color:black">about</a></div></br>
+<div style="width:37vw; display:inline-block"><a href="photography.html" style="text-decoration:none; color:black">photography</a></div><div style="width:37vw; display:inline-block"></div></br>
 	</div>
-</div>	
+</div>
 
 <!-- *** Desktop menu -->
 <div id="menuwrapper_desk">
 	<nav id="menubar" class="menubar">
 		<ul>
-		<a href="index.html" style="text-decoration:none">
-			<li id="isaacgatley">isaac gatley</li>
+		<a href="default.htm" style="text-decoration:none">
+				<li id="isaacgatley">isaac gatley</li>
 		</a>
 			<li><span id="art" onclick="javascript:location.href='art.html'">art</span><ul>
 				<li><a href="wildlife.html">wildlife</a></li>
@@ -70,8 +70,10 @@
 				<li><a href="still-life.html">still life</a></li>
 			</ul>
 			</li>
+			<a href="architecture1.html" style="text-decoration:none">
 			<li>architecture<ul>
-				<li><a href="hanging-gardens.html">hanging gardens</a>
+				<li><a href="architecture2.html">architecture</a></li>
+				<li><a href="urban-design.html">urban design</a></li>
 			</ul>
 			</li>
 			<a href="illustration.html" style="text-decoration:none">
@@ -82,6 +84,9 @@
 			</a>
 			<a href="set-building.html" style="text-decoration:none">
 			<li>set building</li>
+			</a>
+      <a href="product-design.html" style="text-decoration:none">
+			<li>product design</li>
 			</a>
 			<li>about<ul>
 				<li><a href="contact.html">contact</a></li>
@@ -94,8 +99,8 @@
 <!-- *** Main content -->
 <div style="background:white; width:84%; text-align:center; padding:0vw 1.5vw 1.5vw 1.5vw; margin:0 auto; position:relative; top:0px; -webkit-box-sizing: border-box;">
 <div id="contentwrapper">
-	<div id="space"><a href="index.html">isaac gatley</a></div>
-	<a class="example-image-link" href="http://media-cache-ec0.pinimg.com/originals/e6/1c/ab/e61cab74ace576c24f62ab6a89faee2e.jpg" data-lightbox="6"><img class="fade" src="pictures/Still-life/Untitled-1.jpg" alt="image-61" /></a>
+	<div id="space"><a href="default.htm">isaac gatley</a></div>
+		<a class="example-image-link" href="http://media-cache-ec0.pinimg.com/originals/e6/1c/ab/e61cab74ace576c24f62ab6a89faee2e.jpg" data-lightbox="6"><img class="fade" src="pictures/Still-life/Untitled-1.jpg" alt="image-61" /></a>
 		<a class="example-image-link" href="http://media-cache-ec0.pinimg.com/originals/00/33/45/00334506f4756ebe912ac49fd418f06f.jpg" data-lightbox="6"><img class="fade" src="pictures/Still-life/Untitled-2.jpg" alt="image-61" /></a>
 		<a class="example-image-link" href="http://media-cache-ak0.pinimg.com/originals/0e/d9/e5/0ed9e5bfb97ae5ec0a2af6e965eed39f.jpg" data-lightbox="6"><img class="fade" src="pictures/Still-life/Untitled-3.jpg" alt="image-61" /></a>
 		<a class="example-image-link" href="http://media-cache-ec0.pinimg.com/originals/15/19/6f/15196f6a10b6b5090edea8b1375ea39b.jpg" data-lightbox="6"><img class="fade" src="pictures/Still-life/Untitled-4.jpg" alt="image-61" /></a>

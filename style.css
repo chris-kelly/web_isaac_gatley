@@ -1,4 +1,4 @@
-﻿@font-face { font-family: gothics; src: url('fonts/GOTHIC.woff'); }
+@font-face { font-family: gothics; src: url('../fonts/GOTHIC.woff'); }
 
 	@media only screen and (orientation: landscape) {
 		#menuwrapper_mob {display:none}
@@ -6,13 +6,13 @@
 		.menubar { background-color:transparent; top: 0; padding-top:0; position:fixed; min-height:10vw; z-index: 0; margin:0 auto; font-family:gothics; font-size:4vw; opacity:0.95; width:100%; height:10vw; z-index:2 }
 		nav { text-align: center; text-decoration: none; color:black; z-index:2; padding:0 auto; margin:0 auto; font-family: gothics; }
 		nav ul { list-style: none; position: relative; display: inline-table; text-decoration: none; top: 0px; margin:0 auto; width:84%; background:white; box-shadow: 0 0 1vw rgba(0,0,0,0.3); padding-left:1vw; padding-right:1vw; }
-		nav ul li { overflow-y:hidden; float: left; text-decoration: none; background-color:white; margin: 0; width:10.3vw; height:2vw; text-align:center; color:black; padding-top:2vw; padding-bottom:1vw; font-size:1vw; transition: background .7s ease-in-out; -moz-transition: background .7s ease-in-out; -webkit-transition: background .7s ease-in-out }
+		nav ul li { overflow-y:hidden; float: left; text-decoration: none; background-color:white; margin: 0; width:9.3vw; height:2vw; text-align:center; color:black; padding-top:2vw; padding-bottom:1vw; font-size:1vw; transition: background .7s ease-in-out; -moz-transition: background .7s ease-in-out; -webkit-transition: background .7s ease-in-out }
 		nav ul li a { text-decoration: none; color:black }
 		nav ul li a:hover { text-decoration: none; }
 		nav ul li:hover { background-color: #B0B0B0; color:white; overflow-y:visible; }
 		nav ul li:hover > ul { opacity:1; text-decoration: none; box-shadow: none; }
-		nav ul ul { overflow-x:hidden; opacity:0; background: #B0B0B0; border-radius: 0px; padding: 0; position: relative; top: 0px; left:0px; text-decoration: none; margin:0 0 0 0; list-style: none; width:10.3vw; padding-top:1vw; transition: opacity .7s ease-in-out; -moz-transition: opacity .7s ease-in-out; -webkit-transition: opacity .7s ease-in-out; margin-top:1vw; box-shadow:none }
-		nav ul ul li { float:center; text-align:center; position:relative; padding: 0; color:white; width:10.15vw; background:#B0B0B0; margin:0; font-family:gothics}
+		nav ul ul { overflow-x:hidden; opacity:0; background: #B0B0B0; border-radius: 0px; padding: 0; position: relative; top: 0px; left:0px; text-decoration: none; margin:0 0 0 0; list-style: none; width:9.3vw; padding-top:1vw; transition: opacity .7s ease-in-out; -moz-transition: opacity .7s ease-in-out; -webkit-transition: opacity .7s ease-in-out; margin-top:1vw; box-shadow:none }
+		nav ul ul li { float:center; text-align:center; position:relative; padding: 0; color:white; width:9.3vw; background:#B0B0B0; margin:0; font-family:gothics}
 		nav ul ul li a { color:white; text-decoration: none; font-family:gothics; transition: color .7s ease-in-out; -moz-transition: color .7s ease-in-out; -webkit-transition: color .7s ease-in-out; box-shadow: none }
 		nav ul ul li:hover { color:black;}
 		nav ul ul li a:hover { color:black; }
