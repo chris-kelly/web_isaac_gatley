@@ -8,68 +8,83 @@
 		<link href="style/stylesheet.css" rel="stylesheet" />
 		<script src="Menubar.js"></script>
 
-		<link href="style/box_style.css" rel="stylesheet" />
-
-		<style> 
-
-		/* Styling for the box images */
-			.farleft {background-image:url('pictures/Animals/SDC12195.jpg')}
-			.midleft {background-image:url('pictures/Architecture2/small-5.jpg')}
-			.middle {background-image:url('pictures/photos/Untitled-2.jpg')}
-			.midright {background-image:url('pictures/set-building/Untitled-1.jpg')}
-			.farright {background-image:url('pictures/product-design/Chair side.jpg')}
-
-			/* Styling for images on mobile (portrait) */
-			@media only screen and (orientation: portrait) {
-				.farleft  { height: 50vw; }
-				.midleft  { height: 39.2vw; }
-				.middle   { height: 46.8vw; }
-				.midright { height: 80vw; }
-				.farright { height: 80vw; }
-			}
-
-			/* Styling for images on desktop (landscape) */
-			@media only screen and (orientation: landscape) {
-				.farleft:hover  { width: 25.4vw; }
-				.midleft:hover  { width: 30vw; }
-				.middle:hover   { width: 28vw; }
-				.midright:hover { width: 15vw; }
-				.farright:hover { width: 16.5vw; }
-			}
-
-		</style>
-		
+		<link href="style/box_style.css" rel="stylesheet" />		
 
 	</head>
 
 	<body>
+
+		<!-- *** Desktop menu *** -->
+
+		<div id="menuwrapper_desk">
+			<nav id="menubar">
+				<ul>
+					<a href="index.html">
+						<li id="isaacgatley">isaac gatley</li>
+					</a>
+					<li>
+						<a href="art.html">art</a>
+						<ul>
+							<li><a href="wildlife.html">wildlife</a></li>
+							<li><a href="portrait.html">portraits</a></li>
+							<li><a href="architecture.html">architecture</a></li>
+							<li><a href="still-life.html">still life</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="architecture1.html">architecture</a>
+						<ul>
+							<li><a href="architecture2.html">architecture</a></li>
+							<li><a href="urban-design.html">urban design</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="illustration.html">illustration</a>
+					</li>
+					<li>
+						<a href="photography.html">photography</a>
+					</li>
+					<li>
+						<a href="set-building.html">set building
+					</li>
+					
+		      <a href="product-design.html">
+					<li>product design</li>
+					</a>
+					<li>about<ul>
+						<li><a href="contact.html">contact</a></li>
+						<li><a href="info.html">info</a></li>
+						</ul>
+			</ul>
+			</nav>
+		</div>		
 
 		<!-- *** Mobile menu *** -->
 
 		<div id="menuwrapper_mob">
 			<div class="menubutton" onclick="openSubmenu()">
 				<div id="top"></div>
-				<div style="margin:3vw 0 3vw 0;" id="rotate1" class="rotateoff"></div>
-				<div style="top: -3.7vw" id="rotate2" class="rotateoff"></div>
-				<div id="bottom"></div>
+				<div id="rotateClockwise"></div> 
+				<div id="rotateAnticlockwise" style="top:-3vw"></div>
+				<div id="bottom" style="top:-3vw"></div>
 			</div>
 			<div id="submenu" class="no_show">
-				<div style="width:37vw; display:inline-block">
+				<div>
 					<a href="art.html" style="text-decoration:none; color:black;">art</a>
 				</div>
-				<div style="width:37vw; display:inline-block">
+				<div>
 					<a href="set-building.html" style="text-decoration:none; color:black">set building</a>
 				</div>
-				<div style="width:37vw; display:inline-block">
+				<div>
 					<a href="architecture1.html" style="text-decoration:none; color:black">architecture</a>
 				</div>
-				<div style="width:37vw; display:inline-block">
+				<div>
 					<a href="product-design.html" style="text-decoration:none; color:black">product design</a>
 				</div>
-				<div style="width:37vw; display:inline-block">
+				<div>
 					<a href="illustration.html" style="text-decoration:none; color:black">illustration</a>
 				</div>
-				<div style="width:37vw; display:inline-block">
+				<div>
 					<a href="about.html" style="text-decoration:none; color:black">about</a>
 				</div>
 				</br>
@@ -81,98 +96,64 @@
 			</div>
 		</div>
 
-		<!-- *** Desktop menu *** -->
-
-		<div id="menuwrapper_desk">
-			<nav id="menubar">
-				<ul>
-				<a href="index.html">
-						<li id="isaacgatley">isaac gatley</li>
-				</a>
-					<li><span id="art" onclick="javascript:location.href='art.html'">art</span><ul>
-						<li><a href="wildlife.html">wildlife</a></li>
-						<li><a href="portrait.html">portraits</a></li>
-						<li><a href="architecture.html">architecture</a></li>
-						<li><a href="still-life.html">still life</a></li>
-					</ul>
-					</li>
-					<a href="architecture1.html">
-					<li>architecture<ul>
-						<li><a href="architecture2.html">architecture</a></li>
-						<li><a href="urban-design.html">urban design</a></li>
-					</ul>
-					</li>
-					<a href="illustration.html">
-					<li>illustration</li>
-					</a>
-					<a href="photography.html">
-					<li>photography</li>
-					</a>
-					<a href="set-building.html">
-					<li>set building</li>
-					</a>
-		      <a href="product-design.html">
-					<li>product design</li>
-					</a>
-					<li>about<ul>
-						<li><a href="contact.html">contact</a></li>
-						<li><a href="info.html">info</a></li>
-						</ul>
-			</ul>
-			</nav>
-		</div>
-
 		<!-- *** Main content -->
 		<div class="mainContent">
-
+			<style> 
+				/* Styling for the box images */
+				.farleft {background-image:url('pictures/Animals/SDC12195.jpg')}
+				.midleft {background-image:url('pictures/Architecture2/small-5.jpg')}
+				.middle {background-image:url('pictures/photos/Untitled-2.jpg')}
+				.midright {background-image:url('pictures/set-building/Untitled-1.jpg')}
+				.farright {background-image:url('pictures/product-design/Chair side.jpg')}
+				/* Styling for images on mobile (portrait) */
+				@media only screen and (orientation: portrait) {
+					.farleft  { height: 50vw; }
+					.midleft  { height: 39.2vw; }
+					.middle   { height: 46.8vw; }
+					.midright { height: 80vw; }
+					.farright { height: 60vw; }
+				}
+				/* Styling for images on desktop (landscape) */
+				@media only screen and (orientation: landscape) {
+					.farleft:hover  { width: 25.4vw; }
+					.midleft:hover  { width: 30vw; }
+					.middle:hover   { width: 28vw; }
+					.midright:hover { width: 15vw; }
+					.farright:hover { width: 16.5vw; }
+				}
+			</style>
 			<div id="contentwrapper">
-
-				<div id="space">
-					<a href="index.html">isaac gatley</a>
-				</div>
-
 				<!-- *** Box images  -->
-
 				<a href="art.html">
 					<div class="boximage farleft">
 						<div class="captionbox">art</div>
 					</div>
 				</a>
-
 				<a href="architecture1.html">
 					<div class="boximage midleft">
 						<div class="captionbox">architecture
 						</div>
 					</div>
 				</a>
-
 				<a href="photography.html">
 					<div class="boximage middle">
 						<div class="captionbox">photography
 						</div>
 					</div>
 				</a>
-				
 				<a href="set-building.html">
 					<div class="boximage midright">
 						<div class="captionbox">set building
 						</div>
 					</div>
 				</a>
-
 			  	<a href="product-design.html">
 			  		<div class="boximage farright">
 			  			<div class="captionbox">product design
 			  			</div>
 			  		</div>
 			  	</a>
-
-			 	<br><br><br><br><br></br>
-
 			</div>
-
 		</div>
-
 	</body>
-
 </html>
