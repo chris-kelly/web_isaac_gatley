@@ -1,3 +1,8 @@
+@font-face { 
+	font-family: gothics; 
+	src: url('../fonts/GOTHIC.woff'); 
+}
+
 body {
 	padding:0; 
 	margin:0; 
@@ -19,10 +24,6 @@ a {
 	-webkit-box-sizing: border-box;
 }
 
-@font-face { 
-	font-family: gothics; 
-	src: url('../fonts/GOTHIC.woff'); 
-}
 
 /* Computer devices (landscape mode) */
 @media only screen and (orientation: landscape) {
@@ -151,20 +152,28 @@ a {
 	#contentwrapper img {
 		margin: 2px
 	}
-	.fade {
+
+	.lightbox_images a {
+		opacity:1; 
+		height:300px; 
+		width:auto;
+	}
+
+	.lightbox_images a img {
 		opacity: 0.5;
 		transition: opacity .4s ease-in-out; 
 		-moz-transition: opacity .4s ease-in-out; 
 		-webkit-transition: opacity .4s ease-in-out
 	}
-	.fade:hover { 
+
+	.lightbox_images a img:hover { 
 		opacity: 1 
 	}
-	.example-image-link { opacity:1; height:300px; width:auto; }
-	#isaacgatley {font-size:2vw; padding-top:1.5vw; padding-bottom:1.5vw; padding-left:1.2vw; padding-right:1.2vw; left:-2vw; margin-left:0px; width:15vw}
-	.links { text-decoration:none; color:black; opacity:1; transition: opacity 0.7s; }
-	.links:hover { opacity:0.55 }
-	#text {font-family:gothics; line-height:3; font-size:1vw; color:#999999;}
+
+	/*#isaacgatley {font-size:2vw; padding-top:1.5vw; padding-bottom:1.5vw; padding-left:1.2vw; padding-right:1.2vw; left:-2vw; margin-left:0px; width:15vw}*/
+	/*.links { text-decoration:none; color:black; opacity:1; transition: opacity 0.7s; }*/
+	/*.links:hover { opacity:0.55 }*/
+	/*#text {font-family:gothics; line-height:3; font-size:1vw; color:#999999;}*/
 /*	#art{transition: color .7s ease-in-out; -moz-transition: color .7s ease-in-out; -webkit-transition: color .7s ease-in-out; cursor:pointer}
 	#art:hover {color:black; transition: color .7s ease-in-out; -moz-transition: color .7s ease-in-out; -webkit-transition: color .7s ease-in-out;}
 */}
@@ -211,12 +220,12 @@ a {
 		-webkit-transition: transform 0.6s ease-in-out, background-color 0.6s ease-in-out, opacity 0.6s ease-in-out	;
 	}
 
-	#submenu {
+	#menu {
 		position:fixed; 
-		width:81vw; 
+		width:79vw; 
 		left:16vw; 
 		margin:1vw 1vw 1vw 0vw; 
-		padding:0 0 0 2vw; 
+		padding:0 0 0 4vw; 
 		color:#B0B0B0; 
 		text-align:left; 
 		font-family: gothics, sans-serif; 
@@ -231,21 +240,48 @@ a {
 		opacity: 0;
 		height: 0;
 	}
-	#submenu div {
+	#menu div {
 		width:37vw; 
 		display:inline-block
 	}
 
-	#submenu div a {
+	#menu div a {
 		text-decoration:none; 
-		color:black
+		color:black;
 	}
 
-	#contentwrapper img {max-width:90%; margin-bottom:4vw; height:50vw}
-	.fade { opacity: 1; transition: opacity .4s ease-in-out; -moz-transition: opacity .4s ease-in-out; -webkit-transition: opacity .4s ease-in-out}
-	.fade:hover { opacity: 1 }
-	.example-image-link { opacity:1; height:auto; margin: 2vw; width:90% }
-	#contentwrapper {padding:0 auto; position:relative; top: 5vw; height:auto}
+	.subMenu {
+		display:none;
+		height:0vw;
+	}
+
+	#contentwrapper {
+		padding:0 auto; 
+		position:relative; 
+		top: 5vw; 
+		height:auto
+	}
+
+	#contentwrapper img {
+		max-width:90%; 
+		margin-bottom:4vw; 
+		height:50vw
+	}
+
+	.lightbox_images a { 
+		opacity:1; 
+		height:auto; 
+		margin: 2vw; 
+		width:90% 
+	}
+
+	.lightbox_images a img {
+/*		opacity: 1; 
+		transition: opacity .4s ease-in-out; 
+		-moz-transition: opacity .4s ease-in-out; 
+		-webkit-transition: opacity .4s ease-in-out*/
+	}
+	
 	#space {text-align:right; margin-bottom:4vw; margin-right:8vw; margin-top:2vw;}
 	#space a {font-family:gothics; font-size: 7vw; color:rgb(176, 176, 176); text-decoration:none}
 	.links { text-decoration:none; color:black; opacity:1; transition: opacity 0.7s; }
