@@ -251,8 +251,11 @@ a {
 	}
 
 	.subMenu {
-		display:none;
-		height:0vw;
+		display: none;
+	}
+
+	.subMenuA {
+		display: none;
 	}
 
 	#contentwrapper {
