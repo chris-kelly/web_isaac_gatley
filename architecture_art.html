@@ -3,11 +3,17 @@
 	<head>
 
 		<title>architecture.</title>
+
 		<meta name="description" content="isaac gatley: art - wildlife - portraits - architecture - still life. architecture - architecture - urban design. illustration. photography. set building. product design.">
+		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="style/stylesheet.css" rel="stylesheet" />
+		
 		<script src="Menubar.js"></script>
-		<link href="style/box_style.css" rel="stylesheet" />		
+		
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script src="js/lightbox.min.js"></script>
+		<link href="css/lightbox.css" rel="stylesheet" />	
 
 	</head>
 
@@ -26,14 +32,14 @@
 						<ul>
 							<li><a href="wildlife.html">wildlife</a></li>
 							<li><a href="portrait.html">portraits</a></li>
-							<li><a href="architecture.html">architecture</a></li>
+							<li><a href="architecture_art.html">architecture</a></li>
 							<li><a href="still-life.html">still life</a></li>
 						</ul>
 					</li>
 					<li>
-						<a href="architecture1.html">architecture</a>
+						<a href="architecture_box.html">architecture</a>
 						<ul>
-							<li><a href="architecture2.html">architecture</a></li>
+							<li><a href="architecture_content.html">architecture</a></li>
 							<li><a href="urban-design.html">urban design</a></li>
 						</ul>
 					</li>
@@ -75,7 +81,7 @@
 					<a class="subMenuA" href="set-building.html">set building</a>
 				</div>
 				<div class="subMenu">
-					<a class="subMenuA" href="architecture1.html">architecture</a>
+					<a class="subMenuA" href="architecture_box.html">architecture</a>
 				</div>
 				<div class="subMenu">
 					<a class="subMenuA" href="product-design.html">product design</a>
@@ -96,35 +102,18 @@
 
 		<!-- *** Main content -->
 		<div class="mainContent">
-			<style> 
-				/* Styling for the box images */
-				.midleft {background-image:url('pictures/Architecture2/small-5.jpg')}
-				.midright {background-image:url('pictures/urban-design/small-woodstock.jpg')}
-
-			/* Styling for images on mobile (portrait) */
-				@media only screen and (orientation: portrait) {
-					.midleft  { height: 39.2vw; }
-					.midright { height: 52vw; }
-				}
-				/* Styling for images on desktop (landscape) */
-				@media only screen and (orientation: landscape) {
-					.midleft:hover  { width: 22vw; }
-					.midright:hover { width: 25vw; }
-				}
-			</style>
-			<div id="contentwrapper">
-				<a href="architecture2.html">
-					<div class="boximage midleft">
-						<div class="captionbox">architecture
-						</div>
-					</div>
+			<div id="contentwrapper" class="lightbox_images">
+				<!-- Link to large, pinterest hosted image -->
+				<a href="https://media-cache-ec0.pinimg.com/originals/92/b0/1f/92b01f659d9840e76beed50c399c2c33.jpg" data-lightbox="2"> 
+					<!-- Link to small, locally hosted image -->
+					<img src="pictures/Architecture/Untitled-2.jpg"/>
 				</a>
-				<a href="urban-design.html">
-					<div class="boximage midright">
-						<div class="captionbox">urban design
-						</div>
-					</div>
+				<a href="https://media-cache-ec0.pinimg.com/originals/62/9e/31/629e31f2f3e742c2281d3b8ab44eb00e.jpg" data-lightbox="2"> 
+					<img src="pictures/Architecture/Untitled-3.jpg"/>
 				</a>
+				<a href="https://media-cache-ak0.pinimg.com/originals/4d/f7/59/4df75992244e2ce1388013d305ad7bf0.jpg" data-lightbox="2"> 
+					<img src="pictures/Architecture/Untitled-4.jpg"/>
+				</a>		
 			</div>
 		</div>
 	</body>
