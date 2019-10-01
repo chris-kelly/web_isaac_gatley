@@ -6,6 +6,7 @@
 	var lB = document.getElementById("bottom");
 	var s = document.getElementById("menu");
 	var sm = document.getElementsByClassName("subMenu");
+	var sma = document.getElementsByClassName("subMenuA");
 
 		if (rC.style.transform != "rotate(45deg)") { // if not already rotated
 			// rotate middle 2
@@ -24,6 +25,7 @@
 			var i;
 			for (i = 0; i < sm.length; i++) {
 			  sm[i].style.display = "inline-block";
+			  sma[i].style.display = "inline-block";
 			}
 		} else {
 			// make middle 2 horizontal
@@ -42,6 +44,7 @@
 			var i;
 			for (i = 0; i < sm.length; i++) {
 			  sm[i].style.display = "none";
+			  sma[i].style.display = "none";
 			}			
 	    }
 }
