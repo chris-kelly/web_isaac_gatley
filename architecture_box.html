@@ -4,16 +4,13 @@
 
 	<head>
 
-		<title>me.</title>
+		<title>architecture.</title>
 
 		<meta name="description" content="isaac gatley: art - wildlife - portraits - architecture - still life. architecture - architecture - urban design. illustration. photography. set building. product design.">
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="css/stylesheet.css" rel="stylesheet" />
-		<script src="js/menubar.js"></script>
-
-		<link rel="stylesheet" href="css/lightbox.min.css">
-  		<script src="js/lightbox-plus-jquery.min.js"></script>
+		<script src="js/menubar.js"></script>		
 
 	</head>
 
@@ -102,21 +99,41 @@
 
 		<!-- *** Main content -->
 		<div class="mainContent">
-			<div id="contentwrapper" class="lightbox_images" style="display:inline-block; width:22vw; height:30vw; margin:1vw; font-size:1vw; text-align:left; color:#999999; padding-top:0.2vw">
-				<span style="color:black">me</span><br /><br /><br />
-				i did my arts foundation course at central st. martins.<br><br>
-				chose graphics. enjoyed drawing.<br><br>
-				i then went on to graduate in architecture at the university of portsmouth.<br><br>
-				from that i worked in town planning and urban development.<br><br>
-		        since then i have enjoyed working as a creative in advertising & learning to code.<br><br>
-				after that, all i can say with confidence is i shall enjoy not working in a bank.<br><br><br><br>
-				email: 
-				<a href="mailto:isaac@isaacgatley.com" class="links" target="_blank">
-					isaac@isaacgatley.com
-				</a>
-			</div>
-			<div style="width:52vw; height:30vw; background-image:url('pictures/IMG_4886_edit%20-%20Copy%20(2).JPG'); background-size:cover; display:inline-block; margin:1vw; vertical-align:top">
+			<div id="contentwrapper" class="lightbox_images">
+				<div class="mob_title">
+						<a href="index.html">isaac gatley</a>
+					</div>
+				<style> 
+					/* Styling for the box images */
+					.midleft {background-image:url('pictures/Architecture2/small-5.jpg')}
+					.midright {background-image:url('pictures/urban-design/small-woodstock.jpg')}
+
+				/* Styling for images on mobile (portrait) */
+					@media only screen and (orientation: portrait) {
+						.midleft  { height: 39.2vw; }
+						.midright { height: 52vw; }
+					}
+					/* Styling for images on desktop (landscape) */
+					@media only screen and (orientation: landscape) {
+						.midleft:hover  { width: 22vw; }
+						.midright:hover { width: 28.5vw; }
+					}
+				</style>
+				<div id="contentwrapper">
+					<a href="architecture_content.html">
+						<div class="boximage midleft">
+							<div class="captionbox">architecture
+							</div>
+						</div>
+					</a>
+					<a href="urban-design.html">
+						<div class="boximage midright">
+							<div class="captionbox">urban design
+							</div>
+						</div>
+					</a>
+				</div>
 			</div>
 		</div>
 	</body>
-</html>			
+</html>

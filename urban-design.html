@@ -1,102 +1,164 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<!DOCTYPE html>
 
-<head>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-<title>urban design.</title>
-<script src="js/jquery-1.11.0.min.js"></script>
-<script src="js/lightbox.min.js"></script>
-<link href="css/lightbox.css" rel="stylesheet" />
-<link href="style.css" rel="stylesheet" />
-<script src="Menubar.js"></script>
-<style>
-</style>
+<html>
 
-</head>
+	<head>
 
-<body style="padding:0; margin:0; background:#F2F2F2">
+		<title>architecture.</title>
 
-<!-- *** Mobile menu -->
-<div id="menuwrapper_mob">
-	<div class="menubutton" onclick="openSubmenu()">
-		<div id="top"></div>
-		<div style="margin:3vw 0 3vw 0;" id="rotate1" class="rotateoff"></div>
-		<div style="top: -3.7vw" id="rotate2" class="rotateoff"></div>
-		<div id="bottom"></div>
-	</div>
-	<div id="submenu" class="no_show">
-<div style="width:37vw; display:inline-block"><a href="art.html" style="text-decoration:none; color:black;">art</a></div><div style="width:37vw; display:inline-block"><a href="set-building.html" style="text-decoration:none; color:black">set building</a></div>
-<div style="width:37vw; display:inline-block"><a href="architecture1.html" style="text-decoration:none; color:black">architecture</a></div><div style="width:37vw; display:inline-block"><a href="product-design.html" style="text-decoration:none; color:black">product design</a></div>
-<div style="width:37vw; display:inline-block"><a href="illustration.html" style="text-decoration:none; color:black">illustration</a></div><div style="width:37vw; display:inline-block"><a href="about.html" style="text-decoration:none; color:black">about</a></div></br>
-<div style="width:37vw; display:inline-block"><a href="photography.html" style="text-decoration:none; color:black">photography</a></div><div style="width:37vw; display:inline-block"></div></br>
-	</div>
-</div>
+		<meta name="description" content="isaac gatley: art - wildlife - portraits - architecture - still life. architecture - architecture - urban design. illustration. photography. set building. product design.">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/stylesheet.css" rel="stylesheet" />
+		<script src="js/menubar.js"></script>
 
-<!-- *** Desktop menu -->
-<div id="menuwrapper_desk">
-	<nav id="menubar" class="menubar">
-		<ul>
-		<a href="index.html" style="text-decoration:none">
-				<li id="isaacgatley">isaac gatley</li>
-		</a>
-			<li><span id="art" onclick="javascript:location.href='art.html'">art</span><ul>
-				<li><a href="wildlife.html">wildlife</a></li>
-				<li><a href="portrait.html">portraits</a></li>
-				<li><a href="architecture.html">architecture</a></li>
-				<li><a href="still-life.html">still life</a></li>
+		<link rel="stylesheet" href="css/lightbox.min.css">
+  		<script src="js/lightbox-plus-jquery.min.js"></script>
+
+	</head>
+
+	<body>
+
+		<!-- *** Desktop menu *** -->
+
+		<div id="menuwrapper_desk">
+			<nav id="menubar">
+				<ul>
+					<a href="index.html">
+						<li style="font-size:2vw; width:15vw; padding:1.5vw">isaac gatley</li>
+					</a>
+					<li>
+						<a href="art.html">art</a>
+						<ul>
+							<li><a href="wildlife.html">wildlife</a></li>
+							<li><a href="portrait.html">portraits</a></li>
+							<li><a href="architecture_art.html">architecture</a></li>
+							<li><a href="still-life.html">still life</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="architecture_box.html">architecture</a>
+						<ul>
+							<li><a href="architecture_content.html">architecture</a></li>
+							<li><a href="urban-design.html">urban design</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="illustration.html">illustration</a>
+					</li>
+					<li>
+						<a href="photography.html">photography</a>
+					</li>
+					<li>
+						<a href="set-building.html">set building
+					</li>
+					
+		      <a href="product-design.html">
+					<li>product design</li>
+					</a>
+					<li>about<ul>
+						<li><a href="contact.html">contact</a></li>
+						<li><a href="info.html">info</a></li>
+						</ul>
 			</ul>
-			</li>
-			<a href="architecture1.html" style="text-decoration:none">
-			<li>architecture<ul>
-				<li><a href="architecture2.html">architecture</a></li>
-				<li><a href="urban-design.html">urban design</a></li>
-			</ul>
-			</li>
-			<a href="illustration.html" style="text-decoration:none">
-			<li>illustration</li>
-			</a>
-			<a href="photography.html" style="text-decoration:none">
-			<li>photography</li>
-			</a>
-			<a href="set-building.html" style="text-decoration:none">
-			<li>set building</li>
-			</a>
-      <a href="product-design.html" style="text-decoration:none">
-			<li>product design</li>
-			</a>
-			<li>about<ul>
-				<li><a href="contact.html">contact</a></li>
-				<li><a href="info.html">info</a></li>
-				</ul>
-	</ul>
-	</nav>
-</div>
+			</nav>
+		</div>		
 
-<body>
-<div style="background:white; width:84%; text-align:center; padding:0vw 1.5vw 1.5vw 1.5vw; margin:0 auto; position:relative; top:0px; -webkit-box-sizing: border-box;">
-<div id="contentwrapper">
-	<div id="space"><a href="index.html">isaac gatley</a></div>
-<a class="example-image-link" ><img src="pictures/urban-design/Header_westwaddy-adp.jpg" alt="image-54" /></a>
-<a class="example-image-link" href="https://s-media-cache-ak0.pinimg.com/originals/f6/46/51/f64651e1d727ce39063fdba1bbb43ffc.jpg" data-lightbox="5"><img class="fade" src="pictures/urban-design/small-woodstock-concept.jpg" alt="image-54" /></a>
-<a class="example-image-link" href="https://s-media-cache-ak0.pinimg.com/originals/60/92/ea/6092eacf0eda20b441212ff0a20ce456.jpg" data-lightbox="5"><img class="fade" src="pictures/urban-design/small-woodstocklayout.jpg" alt="image-54" /></a>
-<a class="example-image-link" href="https://s-media-cache-ak0.pinimg.com/originals/ac/b2/c7/acb2c7c01170ad8de1ba776ba2ccf802.jpg" data-lightbox="5"><img class="fade" src="pictures/urban-design/small-woodstock.jpg" alt="image-54" /></a>
-<a class="example-image-link" href="https://s-media-cache-ak0.pinimg.com/originals/7a/50/f2/7a50f222843df4f935f1f66d39ffcae4.jpg" data-lightbox="5"><img class="fade" src="pictures/urban-design/Woodstock-Transect.jpg" alt="image-54" /></a>
-<a class="example-image-link" href="https://s-media-cache-ak0.pinimg.com/originals/45/ab/cc/45abccbe318a08dffd71444828ccf1bc.jpg" data-lightbox="5"><img class="fade" src="pictures/urban-design/Woodstock-constraints.jpg" alt="image-54" /></a>
-<a class="example-image-link" href="https://s-media-cache-ak0.pinimg.com/originals/3e/13/a1/3e13a10c3000987a334e4decfe09f309.jpg" data-lightbox="5"><img class="fade" src="pictures/urban-design/small-Woodstock-Park.jpg" alt="image-54" /></a>
-<a class="example-image-link" href="https://s-media-cache-ak0.pinimg.com/originals/43/af/a5/43afa56eb019d8997ed5ab544f90c2eb.jpg" data-lightbox="5"><img class="fade" src="pictures/urban-design/small-Woodstock-Campus.jpg" alt="image-54" /></a>
-<a class="example-image-link" href="https://s-media-cache-ak0.pinimg.com/originals/89/6d/76/896d76ff2a9b62028e2babe29b4f61e8.jpg" data-lightbox="5"><img class="fade" src="pictures/urban-design/small-Woodstock-AreaZones.jpg" alt="image-54" /></a>
-<a class="example-image-link" href="https://s-media-cache-ak0.pinimg.com/originals/14/2c/12/142c1247105c492f4ae6a3b63d482aa4.jpg" data-lightbox="5"><img class="fade" src="pictures/urban-design/small-woodstock-render.jpg" alt="image-54" /></a>
-<a class="example-image-link" href="https://s-media-cache-ak0.pinimg.com/originals/0f/bb/74/0fbb74be64791b1de5eaa73caf045aec.jpg" data-lightbox="5"><img class="fade" src="pictures/urban-design/small-Benson-Land-Use-Plan.jpg" alt="image-54" /></a>
-<a class="example-image-link" href="https://s-media-cache-ak0.pinimg.com/originals/e9/50/bd/e950bd43ce88c4ed150b5ed016a72e1d.jpg" data-lightbox="5"><img class="fade" src="pictures/urban-design/small-long-hanborough-concept.jpg" alt="image-54" /></a>
-<a class="example-image-link" href="https://s-media-cache-ak0.pinimg.com/originals/95/2e/b8/952eb8d1e77b10ab003a4ddfb82b225a.jpg" data-lightbox="5"><img class="fade" src="pictures/urban-design/small-longhanborough.jpg" alt="image-54" /></a>
-<a class="example-image-link" href="https://s-media-cache-ak0.pinimg.com/originals/5d/e9/62/5de962002b6081883ea0b5e8b72a485b.jpg" data-lightbox="5"><img class="fade" src="pictures/urban-design/masterplan_smaller_300.jpg" alt="image-54" /></a>
-<a class="example-image-link" href="https://s-media-cache-ak0.pinimg.com/originals/26/19/4b/26194b1af29ba93fc75a05425bcb981c.jpg" data-lightbox="5"><img class="fade" src="pictures/urban-design/small-Upper-Heyford-Site-Plan.jpg" alt="image-54" /></a>
-<a class="example-image-link" href="https://s-media-cache-ak0.pinimg.com/originals/fe/9c/0c/fe9c0c362ca95dd57a936a470dc1afc1.jpg" data-lightbox="5"><img class="fade" src="pictures/urban-design/small-marcham.jpg" alt="image-54" /></a>
-</br></br></br></br></br></br></br></br></br></br></br>
-</div>
-</div>
+		<!-- *** Mobile menu *** -->
+
+		<div id="menuwrapper_mob">
+			<div class="menubutton" onclick="openMenu()">
+				<div id="top"></div>
+				<div id="rotateClockwise"></div> 
+				<div id="rotateAnticlockwise" style="top:-3vw"></div>
+				<div id="bottom" style="top:-3vw"></div>
+			</div>
+			<div id="menu" class="no_show">
+				<div class="subMenu">
+					<a class="subMenuA" href="art.html">art</a>
+				</div>
+				<div class="subMenu">
+					<a class="subMenuA" href="set-building.html">set building</a>
+				</div>
+				<div class="subMenu">
+					<a class="subMenuA" href="architecture_box.html">architecture</a>
+				</div>
+				<div class="subMenu">
+					<a class="subMenuA" href="product-design.html">product design</a>
+				</div>
+				<div class="subMenu">
+					<a class="subMenuA" href="illustration.html">illustration</a>
+				</div>
+				<div class="subMenu">
+					<a class="subMenuA" href="about.html">about</a>
+				</div>
+				</br>
+				<div class="subMenu">
+					<a class="subMenuA" href="photography.html">photography</a>
+				</div>
+			</br>
+			</div>
+		</div>
 
 
-</body>
+		<div class="mainContent">
+			<div id="contentwrapper" class="lightbox_images">
+				<div class="mob_title">
+					<a href="index.html">isaac gatley</a>
+				</div>
+				<a>
+					<img src="pictures/urban-design/Header_westwaddy-adp.jpg"/>
+				</a>
+				<!-- Link to large, pinterest hosted image -->
+				<a href="https://s-media-cache-ak0.pinimg.com/originals/f6/46/51/f64651e1d727ce39063fdba1bbb43ffc.jpg" data-lightbox="1">
+					<!-- Link to small, locally hosted image -->
+					<img src="pictures/urban-design/small-woodstock-concept.jpg"/>
+				</a>
+				<a href="https://s-media-cache-ak0.pinimg.com/originals/60/92/ea/6092eacf0eda20b441212ff0a20ce456.jpg" data-lightbox="1">
+					<img src="pictures/urban-design/small-woodstocklayout.jpg"/>
+				</a>
+				<a href="https://s-media-cache-ak0.pinimg.com/originals/ac/b2/c7/acb2c7c01170ad8de1ba776ba2ccf802.jpg" data-lightbox="1">
+					<img src="pictures/urban-design/small-woodstock.jpg"/>
+				</a>				
+				<a href="https://s-media-cache-ak0.pinimg.com/originals/7a/50/f2/7a50f222843df4f935f1f66d39ffcae4.jpg" data-lightbox="1">
+					<img src="pictures/urban-design/Woodstock-Transect.jpg"/>
+				</a>
+				<a href="https://s-media-cache-ak0.pinimg.com/originals/45/ab/cc/45abccbe318a08dffd71444828ccf1bc.jpg" data-lightbox="1">
+					<img src="pictures/urban-design/Woodstock-constraints.jpg"/>
+				</a>
+				<a href="https://s-media-cache-ak0.pinimg.com/originals/3e/13/a1/3e13a10c3000987a334e4decfe09f309.jpg" data-lightbox="1">
+					<img src="pictures/urban-design/small-Woodstock-Park.jpg"/>
+				</a>
+				<a href="https://s-media-cache-ak0.pinimg.com/originals/43/af/a5/43afa56eb019d8997ed5ab544f90c2eb.jpg" data-lightbox="1">
+					<img src="pictures/urban-design/small-Woodstock-Campus.jpg"/>
+				</a>
+				<a href="https://s-media-cache-ak0.pinimg.com/originals/89/6d/76/896d76ff2a9b62028e2babe29b4f61e8.jpg" data-lightbox="1">
+					<img src="pictures/urban-design/small-Woodstock-AreaZones.jpg"/>
+				</a>
+				<a href="https://s-media-cache-ak0.pinimg.com/originals/14/2c/12/142c1247105c492f4ae6a3b63d482aa4.jpg" data-lightbox="1">
+					<img src="pictures/urban-design/small-woodstock-render.jpg"/>
+				</a>
+				<a href="https://s-media-cache-ak0.pinimg.com/originals/0f/bb/74/0fbb74be64791b1de5eaa73caf045aec.jpg" data-lightbox="1">
+					<img src="pictures/urban-design/small-Benson-Land-Use-Plan.jpg"/>
+				</a>
+				<a href="https://s-media-cache-ak0.pinimg.com/originals/e9/50/bd/e950bd43ce88c4ed150b5ed016a72e1d.jpg" data-lightbox="1">
+					<img src="pictures/urban-design/small-long-hanborough-concept.jpg"/>
+				</a>
+				<a href="https://s-media-cache-ak0.pinimg.com/originals/95/2e/b8/952eb8d1e77b10ab003a4ddfb82b225a.jpg" data-lightbox="1">
+					<img src="pictures/urban-design/small-longhanborough.jpg"/>
+				</a>
+				<a href="https://s-media-cache-ak0.pinimg.com/originals/5d/e9/62/5de962002b6081883ea0b5e8b72a485b.jpg" data-lightbox="1">
+					<img src="pictures/urban-design/masterplan_smaller_300.jpg"/>
+				</a>
+				<a href="https://s-media-cache-ak0.pinimg.com/originals/26/19/4b/26194b1af29ba93fc75a05425bcb981c.jpg" data-lightbox="1">
+					<img src="pictures/urban-design/small-Upper-Heyford-Site-Plan.jpg"/>
+				</a>
+				<a href="https://s-media-cache-ak0.pinimg.com/originals/fe/9c/0c/fe9c0c362ca95dd57a936a470dc1afc1.jpg" data-lightbox="1">
+					<img src="pictures/urban-design/small-marcham.jpg"/>
+				</a>																				
+			</div>
+		</div>
+
+	</body>
 
 </html>
