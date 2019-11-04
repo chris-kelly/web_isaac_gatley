@@ -3,7 +3,7 @@ Hosted website (JS, HTML5, CSS3)
 
 You can see the full website at <a href="https://isaacgatley.com">https://isaacgatley.com</a>, hosted on github pages.
 
-When the view port is in portrait, the mobile CSS3 is used. WHen it is in landscape, the desktop CSS3 is used.
+When the view port is in portrait, the mobile CSS3 is used. When it is in landscape, the desktop CSS3 is used.
 
 ## Mobile menu written from scratch in javascript:
 <img src="https://media.giphy.com/media/iGeaLeSYmq6EBm6PMc/giphy.gif"></img>
