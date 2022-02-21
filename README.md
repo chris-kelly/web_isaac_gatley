@@ -1,7 +1,7 @@
 # isaacgatley.com
 Hosted website (JS, HTML5, CSS3)
 
-You can see the full website at <a href="https://isaacgatley.com">https://isaacgatley.com</a>, hosted on github pages.
+You can see the full website at <a target="_blank" href="https://isaacgatley.com">https://isaacgatley.com</a>, also hosted on github pages at <a target="_blank" href="https://chris-kelly.github.io/web_isaac_gatley/">https://chris-kelly.github.io/web_isaac_gatley/</a>.
 
 When the view port is in portrait, the mobile CSS3 is used. When it is in landscape, the desktop CSS3 is used.
 
